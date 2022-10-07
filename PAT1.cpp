@@ -76,8 +76,10 @@ int main()
     {
         for(int j=0;j<c;j++)
         {
-            count = count + safe[i][j];
+            if(s[i][j]==1)
+            {
+                cout<<a[i][j]<<", ";
+            }
         }
     }
-    cout<<count<<endl;
 }
