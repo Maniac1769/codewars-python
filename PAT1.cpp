@@ -76,10 +76,15 @@ int main()
     {
         for(int j=0;j<c;j++)
         {
+            count+=s[i][j];
+        }
+    }
+    for(int i=0;i<r;i++)
+    {
+        for(int j=0;j<c;j++)
+        {
             if(s[i][j]==1)
-            {
-                cout<<a[i][j]<<", ";
-            }
+            cout<<a[i][j]<<"\n";
         }
     }
 }
